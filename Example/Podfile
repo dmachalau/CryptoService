@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CryptoService_Example' do
+  pod 'CryptoService', :path => '../'
+
+  target 'CryptoService_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
