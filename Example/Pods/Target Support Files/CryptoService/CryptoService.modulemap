@@ -1,0 +1,6 @@
+framework module CryptoService {
+  umbrella header "CryptoService-umbrella.h"
+
+  export *
+  module * { export * }
+}

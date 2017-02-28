@@ -1,0 +1,707 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2570118B545186E9D61A4FA935AB22EF /* Pods-CryptoService_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D817A7F470CAC175D6DF77BE39063B52 /* Pods-CryptoService_Example-dummy.m */; };
+		2A72489E44B88A064844323F93D3ABCB /* CryptoService-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 06F942F97E119EF43F7FFC9ECA076954 /* CryptoService-dummy.m */; };
+		3E6BC03027BE48EBA13A0FF5C90FE18B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		488CC9BED06FB79070B25E79D462154C /* CryptoService.h in Headers */ = {isa = PBXBuildFile; fileRef = B260C1E922514F8CCFFBFFAF63CE95DB /* CryptoService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4F092F4019D9C1A21BD7C6B1CAB87A8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		59F79667664936EB883C6909A8D773B8 /* Pods-CryptoService_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 69BC0849DADEDAA26E521C201E7F884B /* Pods-CryptoService_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64FFC04B4AE12E5262E6171AC1680679 /* CryptoService-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 27854A009D96FBB1A32081F1E2622400 /* CryptoService-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6870C6A6F07FFA3CCE686C7969961872 /* Pods-CryptoService_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8112B671CEA0BDA6E7DA3B5E57F80E19 /* Pods-CryptoService_Tests-dummy.m */; };
+		AE336616D802381DC48BFAC9FEBD2B0B /* CryptoService.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAF7535D0C69F3BE86429B242D7FBBE /* CryptoService.m */; };
+		E88057A88CD20958D1B77D7419C70260 /* Pods-CryptoService_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EC5ACC03058F7064D3C4976D3D872110 /* Pods-CryptoService_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD7125CA28C8B7CD72F70A1273D4BEB6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1D53C1316139BF50DC29A5F72BE02D3F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C3BF517A8B3BD748D492C32C3647EE2;
+			remoteInfo = CryptoService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06F942F97E119EF43F7FFC9ECA076954 /* CryptoService-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CryptoService-dummy.m"; sourceTree = "<group>"; };
+		1780145A0E0DAD9C94F10E0370DD79A8 /* CryptoService.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CryptoService.framework; path = CryptoService.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		221A5FC2F4AAC7E1552CB1B38A9D4A3B /* Pods-CryptoService_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CryptoService_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		23ECF6A3DE3DAB078AAAAA00CF4B7082 /* Pods-CryptoService_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CryptoService_Example.modulemap"; sourceTree = "<group>"; };
+		241CE589261C388ACDFF9C91698D0455 /* Pods-CryptoService_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CryptoService_Example.release.xcconfig"; sourceTree = "<group>"; };
+		27854A009D96FBB1A32081F1E2622400 /* CryptoService-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CryptoService-umbrella.h"; sourceTree = "<group>"; };
+		27E0C4D78BA37F2B271928F92D22CD2C /* Pods-CryptoService_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-CryptoService_Tests.modulemap"; sourceTree = "<group>"; };
+		529014CA75F1E498A33BAC94087CAEAF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		69BC0849DADEDAA26E521C201E7F884B /* Pods-CryptoService_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CryptoService_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6AA0E4F10F93CB0D9F4CDF1008DD7DFD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		75F527871C8411FF9438BACE00726D3E /* CryptoService.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CryptoService.xcconfig; sourceTree = "<group>"; };
+		7A965F52F1F02082D2805781A893098F /* Pods-CryptoService_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CryptoService_Example-resources.sh"; sourceTree = "<group>"; };
+		8112B671CEA0BDA6E7DA3B5E57F80E19 /* Pods-CryptoService_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CryptoService_Tests-dummy.m"; sourceTree = "<group>"; };
+		8B9A378979113F9DFEDBA135FCB3B010 /* Pods-CryptoService_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CryptoService_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		963DB43C72450CC4D426C1271906FED3 /* Pods-CryptoService_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CryptoService_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		9897B1058CADA4C3614A98EBAE3880A5 /* Pods-CryptoService_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CryptoService_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9A17A297733CBBBD94E9777C3CCDEAE3 /* Pods-CryptoService_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CryptoService_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		A08F850ADF9D8C63FF81BA14DA741F20 /* CryptoService.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = CryptoService.modulemap; sourceTree = "<group>"; };
+		A457D62385E0BF3EB9250A18DD515678 /* Pods-CryptoService_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CryptoService_Example-frameworks.sh"; sourceTree = "<group>"; };
+		AA2978ED7D6757BB12C5A4ED5C568620 /* Pods-CryptoService_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CryptoService_Tests-resources.sh"; sourceTree = "<group>"; };
+		B260C1E922514F8CCFFBFFAF63CE95DB /* CryptoService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = CryptoService.h; sourceTree = "<group>"; };
+		C48F685FAF1E5CC97C7D1BA1BBFCB76D /* Pods-CryptoService_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CryptoService_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C5772C4524EBBCD01902E84181465A72 /* Pods_CryptoService_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CryptoService_Example.framework; path = "Pods-CryptoService_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C8E685BB797092342B6B1D989377891C /* Pods-CryptoService_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CryptoService_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CFAF7535D0C69F3BE86429B242D7FBBE /* CryptoService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = CryptoService.m; sourceTree = "<group>"; };
+		D471253D0243B66E025AA435B87F2182 /* CryptoService-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CryptoService-prefix.pch"; sourceTree = "<group>"; };
+		D817A7F470CAC175D6DF77BE39063B52 /* Pods-CryptoService_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CryptoService_Example-dummy.m"; sourceTree = "<group>"; };
+		E59174167D89426DC73E608DF5B511CE /* Pods_CryptoService_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CryptoService_Tests.framework; path = "Pods-CryptoService_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5ACC03058F7064D3C4976D3D872110 /* Pods-CryptoService_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CryptoService_Example-umbrella.h"; sourceTree = "<group>"; };
+		EFE0FFE458A8959C4EFF88E09F611FEA /* Pods-CryptoService_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CryptoService_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		F187F0C28567453CB7695386BEFCD51D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D20C82F1AE32C7C04CD41ECD3D6816B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F092F4019D9C1A21BD7C6B1CAB87A8E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCFCBD479B9C6E46E49D2891C31E518A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E6BC03027BE48EBA13A0FF5C90FE18B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D287805EA416390CF1FDC84E7EBB0422 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD7125CA28C8B7CD72F70A1273D4BEB6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DD06B56D3709A3810DE683A42D2453B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				B260C1E922514F8CCFFBFFAF63CE95DB /* CryptoService.h */,
+				CFAF7535D0C69F3BE86429B242D7FBBE /* CryptoService.m */,
+			);
+			name = Sources;
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		318D57E82C1F4A64973333A1A379FDCC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A16CFA0FD08FD19C5A3DC6970A93F142 /* CryptoService */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6B95490CF87761EC4186700EBDC8A3AD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A08F850ADF9D8C63FF81BA14DA741F20 /* CryptoService.modulemap */,
+				75F527871C8411FF9438BACE00726D3E /* CryptoService.xcconfig */,
+				06F942F97E119EF43F7FFC9ECA076954 /* CryptoService-dummy.m */,
+				D471253D0243B66E025AA435B87F2182 /* CryptoService-prefix.pch */,
+				27854A009D96FBB1A32081F1E2622400 /* CryptoService-umbrella.h */,
+				6AA0E4F10F93CB0D9F4CDF1008DD7DFD /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CryptoService";
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				318D57E82C1F4A64973333A1A379FDCC /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				966145EC5B05201DBD9F0FC8891AA102 /* Products */,
+				98EB937238C02B5719D8C22CA5979170 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		966145EC5B05201DBD9F0FC8891AA102 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1780145A0E0DAD9C94F10E0370DD79A8 /* CryptoService.framework */,
+				C5772C4524EBBCD01902E84181465A72 /* Pods_CryptoService_Example.framework */,
+				E59174167D89426DC73E608DF5B511CE /* Pods_CryptoService_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		98EB937238C02B5719D8C22CA5979170 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7C80631DE0B4C15F5593C46CC70DEF0 /* Pods-CryptoService_Example */,
+				E9858FB0EF5F310581380F61EE9AC0E4 /* Pods-CryptoService_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A16CFA0FD08FD19C5A3DC6970A93F142 /* CryptoService */ = {
+			isa = PBXGroup;
+			children = (
+				AA6FB69583AECE6D505487D33A2370E1 /* CryptoService */,
+				6B95490CF87761EC4186700EBDC8A3AD /* Support Files */,
+			);
+			name = CryptoService;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		AA6FB69583AECE6D505487D33A2370E1 /* CryptoService */ = {
+			isa = PBXGroup;
+			children = (
+				2DD06B56D3709A3810DE683A42D2453B /* Sources */,
+			);
+			name = CryptoService;
+			path = CryptoService;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C7C80631DE0B4C15F5593C46CC70DEF0 /* Pods-CryptoService_Example */ = {
+			isa = PBXGroup;
+			children = (
+				529014CA75F1E498A33BAC94087CAEAF /* Info.plist */,
+				23ECF6A3DE3DAB078AAAAA00CF4B7082 /* Pods-CryptoService_Example.modulemap */,
+				C8E685BB797092342B6B1D989377891C /* Pods-CryptoService_Example-acknowledgements.markdown */,
+				8B9A378979113F9DFEDBA135FCB3B010 /* Pods-CryptoService_Example-acknowledgements.plist */,
+				D817A7F470CAC175D6DF77BE39063B52 /* Pods-CryptoService_Example-dummy.m */,
+				A457D62385E0BF3EB9250A18DD515678 /* Pods-CryptoService_Example-frameworks.sh */,
+				7A965F52F1F02082D2805781A893098F /* Pods-CryptoService_Example-resources.sh */,
+				EC5ACC03058F7064D3C4976D3D872110 /* Pods-CryptoService_Example-umbrella.h */,
+				9A17A297733CBBBD94E9777C3CCDEAE3 /* Pods-CryptoService_Example.debug.xcconfig */,
+				241CE589261C388ACDFF9C91698D0455 /* Pods-CryptoService_Example.release.xcconfig */,
+			);
+			name = "Pods-CryptoService_Example";
+			path = "Target Support Files/Pods-CryptoService_Example";
+			sourceTree = "<group>";
+		};
+		E9858FB0EF5F310581380F61EE9AC0E4 /* Pods-CryptoService_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F187F0C28567453CB7695386BEFCD51D /* Info.plist */,
+				27E0C4D78BA37F2B271928F92D22CD2C /* Pods-CryptoService_Tests.modulemap */,
+				9897B1058CADA4C3614A98EBAE3880A5 /* Pods-CryptoService_Tests-acknowledgements.markdown */,
+				EFE0FFE458A8959C4EFF88E09F611FEA /* Pods-CryptoService_Tests-acknowledgements.plist */,
+				8112B671CEA0BDA6E7DA3B5E57F80E19 /* Pods-CryptoService_Tests-dummy.m */,
+				963DB43C72450CC4D426C1271906FED3 /* Pods-CryptoService_Tests-frameworks.sh */,
+				AA2978ED7D6757BB12C5A4ED5C568620 /* Pods-CryptoService_Tests-resources.sh */,
+				69BC0849DADEDAA26E521C201E7F884B /* Pods-CryptoService_Tests-umbrella.h */,
+				C48F685FAF1E5CC97C7D1BA1BBFCB76D /* Pods-CryptoService_Tests.debug.xcconfig */,
+				221A5FC2F4AAC7E1552CB1B38A9D4A3B /* Pods-CryptoService_Tests.release.xcconfig */,
+			);
+			name = "Pods-CryptoService_Tests";
+			path = "Target Support Files/Pods-CryptoService_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		378B34641BA8130C1732E423EF76A7CE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E88057A88CD20958D1B77D7419C70260 /* Pods-CryptoService_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7B7B9F95920D3FB47BD2656D0F38AA1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64FFC04B4AE12E5262E6171AC1680679 /* CryptoService-umbrella.h in Headers */,
+				488CC9BED06FB79070B25E79D462154C /* CryptoService.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D8C0E3468AEBDA8649669B1E6FDAD46B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59F79667664936EB883C6909A8D773B8 /* Pods-CryptoService_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1EA51A4D7BCD00001C42ECC6547B5092 /* Pods-CryptoService_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E2E074837D0DCAE0EA89FBFCD2C577D /* Build configuration list for PBXNativeTarget "Pods-CryptoService_Tests" */;
+			buildPhases = (
+				6CA2907FB8B827D6FC07C8E52AFE1552 /* Sources */,
+				0D20C82F1AE32C7C04CD41ECD3D6816B /* Frameworks */,
+				D8C0E3468AEBDA8649669B1E6FDAD46B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CryptoService_Tests";
+			productName = "Pods-CryptoService_Tests";
+			productReference = E59174167D89426DC73E608DF5B511CE /* Pods_CryptoService_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		24261949ED549F3034AA2FF8BC1A05F2 /* Pods-CryptoService_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3EE4A834082697CCB18FFC8E6AA7F55 /* Build configuration list for PBXNativeTarget "Pods-CryptoService_Example" */;
+			buildPhases = (
+				E7BD1FA495233E564875F66E930F7FC0 /* Sources */,
+				CCFCBD479B9C6E46E49D2891C31E518A /* Frameworks */,
+				378B34641BA8130C1732E423EF76A7CE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1CFD33A3B5AD73047853C2D4C98E5C7C /* PBXTargetDependency */,
+			);
+			name = "Pods-CryptoService_Example";
+			productName = "Pods-CryptoService_Example";
+			productReference = C5772C4524EBBCD01902E84181465A72 /* Pods_CryptoService_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		4C3BF517A8B3BD748D492C32C3647EE2 /* CryptoService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D944B6EC692C0C6C9B4B649D692198FF /* Build configuration list for PBXNativeTarget "CryptoService" */;
+			buildPhases = (
+				5741E732303C40FBCBC7394986E172BE /* Sources */,
+				D287805EA416390CF1FDC84E7EBB0422 /* Frameworks */,
+				B7B7B9F95920D3FB47BD2656D0F38AA1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CryptoService;
+			productName = CryptoService;
+			productReference = 1780145A0E0DAD9C94F10E0370DD79A8 /* CryptoService.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 966145EC5B05201DBD9F0FC8891AA102 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C3BF517A8B3BD748D492C32C3647EE2 /* CryptoService */,
+				24261949ED549F3034AA2FF8BC1A05F2 /* Pods-CryptoService_Example */,
+				1EA51A4D7BCD00001C42ECC6547B5092 /* Pods-CryptoService_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5741E732303C40FBCBC7394986E172BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A72489E44B88A064844323F93D3ABCB /* CryptoService-dummy.m in Sources */,
+				AE336616D802381DC48BFAC9FEBD2B0B /* CryptoService.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6CA2907FB8B827D6FC07C8E52AFE1552 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6870C6A6F07FFA3CCE686C7969961872 /* Pods-CryptoService_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7BD1FA495233E564875F66E930F7FC0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2570118B545186E9D61A4FA935AB22EF /* Pods-CryptoService_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1CFD33A3B5AD73047853C2D4C98E5C7C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CryptoService;
+			target = 4C3BF517A8B3BD748D492C32C3647EE2 /* CryptoService */;
+			targetProxy = 1D53C1316139BF50DC29A5F72BE02D3F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		615EE68B7B012301EB687D25F138A53D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75F527871C8411FF9438BACE00726D3E /* CryptoService.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CryptoService/CryptoService-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CryptoService/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CryptoService/CryptoService.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CryptoService;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		61DFE13C44CBE1C96B6B14D8ECAACCB4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 241CE589261C388ACDFF9C91698D0455 /* Pods-CryptoService_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CryptoService_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CryptoService_Example/Pods-CryptoService_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CryptoService_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7E3B48FF143E2C12E200D1CA43BAC813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C48F685FAF1E5CC97C7D1BA1BBFCB76D /* Pods-CryptoService_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CryptoService_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CryptoService_Tests/Pods-CryptoService_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CryptoService_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		84932F208975B471793356AA9AC78738 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75F527871C8411FF9438BACE00726D3E /* CryptoService.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CryptoService/CryptoService-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CryptoService/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CryptoService/CryptoService.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CryptoService;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		92DAFFA37EBB5990F7B4D2D6B6DC4FB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 221A5FC2F4AAC7E1552CB1B38A9D4A3B /* Pods-CryptoService_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CryptoService_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CryptoService_Tests/Pods-CryptoService_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CryptoService_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B7324857C38B065FEB1EEE3105C2367A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3764A13455DA29EBFA16498EB2373EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A17A297733CBBBD94E9777C3CCDEAE3 /* Pods-CryptoService_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CryptoService_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CryptoService_Example/Pods-CryptoService_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CryptoService_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E2E074837D0DCAE0EA89FBFCD2C577D /* Build configuration list for PBXNativeTarget "Pods-CryptoService_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E3B48FF143E2C12E200D1CA43BAC813 /* Debug */,
+				92DAFFA37EBB5990F7B4D2D6B6DC4FB5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59B042A655B7C20CBAB90E385BF4E4C7 /* Debug */,
+				B7324857C38B065FEB1EEE3105C2367A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3EE4A834082697CCB18FFC8E6AA7F55 /* Build configuration list for PBXNativeTarget "Pods-CryptoService_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3764A13455DA29EBFA16498EB2373EC /* Debug */,
+				61DFE13C44CBE1C96B6B14D8ECAACCB4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D944B6EC692C0C6C9B4B649D692198FF /* Build configuration list for PBXNativeTarget "CryptoService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				615EE68B7B012301EB687D25F138A53D /* Debug */,
+				84932F208975B471793356AA9AC78738 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

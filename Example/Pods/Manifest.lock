@@ -1,0 +1,16 @@
+PODS:
+  - CryptoService (0.1.0)
+
+DEPENDENCIES:
+  - CryptoService (from `../`)
+
+EXTERNAL SOURCES:
+  CryptoService:
+    :path: ../
+
+SPEC CHECKSUMS:
+  CryptoService: c46642e8d1d00a065defdc21feb261114f4eb893
+
+PODFILE CHECKSUM: b85fd06473d1ae698b999fa7ce9549e7673ec4a7
+
+COCOAPODS: 1.2.0

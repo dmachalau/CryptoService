@@ -39,8 +39,8 @@
 /* Begin PBXFileReference section */
 		07839D701B3CDD6E973ED435 /* Pods_CryptoService_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoService_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F51376D0B10B467A25A7547 /* Pods_CryptoService_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CryptoService_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		43D09E5B7F9B0A256FF68E26 /* CryptoService.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CryptoService.podspec; path = ../CryptoService.podspec; sourceTree = "<group>"; };
-		4BC3EE9951A159DC902BF822 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		43D09E5B7F9B0A256FF68E26 /* CryptoService.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CryptoService.podspec; path = ../CryptoService.podspec; sourceTree = "<group>"; };
+		4BC3EE9951A159DC902BF822 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* CryptoService_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CryptoService_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -64,7 +64,7 @@
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		922D6B7EDD5EF61BEAB7E636 /* Pods-CryptoService_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoService_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CryptoService_Tests/Pods-CryptoService_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		991B6018C7CF823F03A2A921 /* Pods-CryptoService_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoService_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CryptoService_Example/Pods-CryptoService_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		A9BEC01CA8F6DA3A7F56A5DA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A9BEC01CA8F6DA3A7F56A5DA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C433D95DD1DEB6C936C90589 /* Pods-CryptoService_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoService_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-CryptoService_Example/Pods-CryptoService_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F8162E3D4BA17894FFEBD0E6 /* Pods-CryptoService_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CryptoService_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CryptoService_Tests/Pods-CryptoService_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -479,7 +479,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -512,7 +512,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;

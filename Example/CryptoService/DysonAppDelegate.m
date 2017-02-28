@@ -8,11 +8,14 @@
 
 #import "DysonAppDelegate.h"
 
+#import <CryptoService/CryptoService.h>
+
 @implementation DysonAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    NSString *string = @"string";
+    NSString *hashedPassword = [[CryptoService new] hashPassword:string];
     return YES;
 }
 
